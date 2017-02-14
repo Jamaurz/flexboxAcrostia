@@ -1,0 +1,14 @@
+{
+  "js":[
+    "./app/js/jquery-1.11.3.min.js",
+    "./app/js/jssor.slider-22.2.0.mini.js",
+    "./app/js/slider.js",
+    "./app/js/demo.js"
+  ],
+  "css":[
+  	"./app/style/slider.css"
+  ],
+  "fonts":[
+
+  ]
+}

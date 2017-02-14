@@ -1,0 +1,163 @@
+doctype html(lang='en')
+head
+    meta(charset='UTF-8')
+    title Acrostia
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(href='https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,700i', rel='stylesheet')
+    link(rel="stylesheet", href="css/libs.css")
+    link(rel="stylesheet", href="css/style.min.css")
+  body
+    section.navigation
+      h1.logo
+        a(href='index.html') acrostia
+      nav
+        a.active(href='#home') Home
+        a(href='#services') Services
+        a(href='#about') About
+        a(href='#work') Work
+        //a(href='#contacts') Contacts
+    #home
+      #jssor_1(style='position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:700px;overflow:hidden;visibility:hidden;')
+        // Loading Screen
+        div(data-u='loading', style='position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);')
+          div(style='filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;')          
+          div(style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;") 
+        div(data-u='slides', style='cursor:default;position:relative;top:0px;left:0px;width:1300px;height:700px;overflow:hidden;')
+          .sliderFlex
+            img(data-u='image', src='img/blue.jpg')              
+            .sliderText
+              div
+                span GOOD IDEAS
+                .sliderNextLine  comes 
+              span.sliderBig FIRST!
+          .sliderFlex
+            img(data-u='image', src='img/blue.jpg')
+            .sliderText
+              div
+                span GOOD IDEAS
+                .sliderNextLine  comes
+              span.sliderBig FIRST1!
+          .sliderFlex
+            img(data-u='image', src='img/blue.jpg')            
+            .sliderText
+              div
+                span GOOD IDEAS
+                .sliderNextLine  comes
+              span.sliderBig FIRST2!     
+          a(data-u='any', href='http://www.jssor.com', style='display:none') Full Width Slider
+        // Bullet Navigator
+        .jssorb05(data-u='navigator', style='bottom:16px;right:16px;', data-autocenter='1')
+          // bullet navigator item prototype
+          div(data-u='prototype', style='width:16px;height:16px;')
+        // Arrow Navigator
+        span.jssora22l(data-u='arrowleft', style='top:0px;left:8px;width:40px;height:58px;', data-autocenter='2')    
+        span.jssora22r(data-u='arrowright', style='top:0px;right:8px;width:40px;height:58px;', data-autocenter='2')
+    // #endregion Jssor Slider End
+    section#services
+        .container
+            h2 our services
+            h4 Cras commodo mattis justo nec lobortis. Nam ut tellus lobortis, ullamcorper massa sit amet
+            p Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
+            .servicesItems
+                .servicesItem
+                    #researching.servicesIcon
+                    h3 Researching
+                    p Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.       
+                .servicesItem
+                    #design.servicesIcon
+                    h3 Design
+                    p Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                .servicesItem
+                    #development.servicesIcon
+                    h3 Development
+                    p Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                .servicesItem
+                    #launch.servicesIcon
+                    h3 Launch
+                    p Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+    section#about
+      .container
+        h2 Who we are &amp; what we do
+        p Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis...
+        .meetTeam
+          span Meet the team
+        .servicesItems
+          .servicesItem
+            .aboutIcon
+            h3 Anton Petrov
+            p General maneger
+            .social
+              a#facebook.socialItem(href='https://www.facebook.com', target='_blank')
+              a#twitter.socialItem(href='https://twitter.com/', target='_blank')
+              a#gplas.socialItem(href='https://plus.google.com', target='_blank')
+              a#linkedin.socialItem(href='https://www.linkedin.com', target='_blank')
+          .servicesItem
+            .aboutIcon
+            h3 Kirl Donchev
+            p Designer Master
+            .social
+              a#facebook.socialItem(href='https://www.facebook.com', target='_blank')
+              a#twitter.socialItem(href='https://twitter.com/', target='_blank')
+              a#gplas.socialItem(href='https://plus.google.com', target='_blank')
+              a#linkedin.socialItem(href='https://www.linkedin.com', target='_blank')
+          .servicesItem
+            .aboutIcon
+            h3 Ilian Bonev
+            p Developer Ninja
+            .social
+              a#facebook.socialItem(href='https://www.facebook.com', target='_blank')
+              a#twitter.socialItem(href='https://twitter.com/', target='_blank')
+              a#gplas.socialItem(href='https://plus.google.com', target='_blank')
+              a#linkedin.socialItem(href='https://www.linkedin.com', target='_blank')
+          .servicesItem
+            .aboutIcon
+            h3 Doni Stamov
+            p SEO guru
+            .social
+              a#facebook.socialItem(href='https://www.facebook.com', target='_blank')
+              a#twitter.socialItem(href='https://twitter.com/', target='_blank')
+              a#gplas.socialItem(href='https://plus.google.com', target='_blank')
+              a#linkedin.socialItem(href='https://www.linkedin.com', target='_blank')
+    section#work
+      .container
+        h2 our work
+        p Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis...
+        .workNav
+          h3 Portfolio
+          .workNavList
+            span All
+            span.active Photography
+            span Logo design
+            span Web design
+        .workPhoto
+          figure
+            img(src='img/work1.jpg', alt='work 1')
+            figcaption aenean elit
+          figure
+            img(src='img/work1.jpg', alt='work 1')
+            figcaption aenean elit
+          figure
+            img(src='img/work3.jpg', alt='work 1')
+            figcaption aenean elit
+          figure
+            img(src='img/work4.jpg', alt='work 1')
+            figcaption aenean elit
+          figure
+            img(src='img/work5.jpg', alt='work 1')
+            figcaption aenean elit
+          figure
+            img(src='img/work6.jpg', alt='work 1')
+            figcaption aenean elit
+          figure
+            img(src='img/work7.jpg', alt='work 1')
+            figcaption aenean elit
+          figure
+            img(src='img/work8.jpg', alt='work 1')
+            figcaption aenean elit
+    footer.footer
+      .social
+        a#facebook.socialItem(href='https://www.facebook.com', target='_blank')
+        a#twitter.socialItem(href='https://twitter.com/', target='_blank')
+        a#gplas.socialItem(href='https://plus.google.com', target='_blank')
+        a#linkedin.socialItem(href='https://www.linkedin.com', target='_blank')
+    script(src="js/main.js")

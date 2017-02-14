@@ -1,6 +1,5 @@
 $(".navigation nav a").on('click',function(e) {
   $(".navigation nav a").removeClass('active');
-  //$(this).parent().addClass('active');
   	$(this).addClass('active');
     var url = e.target.href;
     var hash = url.substring(url.indexOf("#")+1);
